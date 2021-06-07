@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ananda | Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="hamburger.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
@@ -13,21 +13,48 @@
   </head>
   <body>
     <header>
-      <nav role="navigation">
-        <div id="menuToggle">
-          <input type="checkbox" />
+      <div class="hamburger">
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
 
-          <span></span>
-          <span></span>
-          <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
 
-          <ul id="menu">
-            <a href="#"><li>Portfolio</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Contact</li></a>
-          </ul>
-        </div>
-      </nav>
+            <ul id="menu">
+              <a href="#"><li>Portfolio</li></a>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Contact</li></a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="h1_styling">
+        <h1>Ananda Rodziewicz</h1>
+        <div class="h1_underline"></div>
+      </div>
     </header>
+
+    <div class="container">
+      <h2 class="welcome">WELCOME!</h2>
+      <div class="writing_top">
+        <p>My name is Ananda Rodziewicz</p>
+        <p>I create usable, accessible and clean web-applications</p>
+        <p>
+          Don't take my word for it, checkout my<br />
+          <a href="#" class="portfolio_link">portfolio!</a>
+        </p>
+      </div>
+      <img
+        class="portfolio_image"
+        src="images/profile.jpg"
+        alt="Picture of Ananda"
+      />
+      <div class="bottom_text">
+        <p>If you like what you see,</p>
+        <p><a href="#" class="contact_link">contact me!</a></p>
+      </div>
+    </div>
   </body>
 </html>

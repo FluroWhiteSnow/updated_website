@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: tomato;
+}
+
+html {
+  background-color: #f6edd2;
+  font-size: 62.5%;
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+.h1_styling {
+  width: 100vw;
+}
+
+h1 {
+  width: 100%;
+  font-weight: 300;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgb(66, 66, 66);
+
+  margin-top: 1.8em;
+  margin-left: 1.3em;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: rgb(66, 66, 66);
+  padding: 2em 0 0.5em 0;
+}
+
+p {
+  font-size: 1.3em;
+  text-align: center;
+  color: rgb(66, 66, 66);
+}
+
+.writing_top {
+  margin-bottom: 3em;
+}
+
+.writing_top > p {
+  margin: 0.7em 0 0 0;
+}
+
+.bottom_text > p {
+  font-size: 1.5em;
+}
+
+.portfolio_image {
+  width: 270px;
+  border-radius: 50%;
+  margin-bottom: 3em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
