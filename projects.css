@@ -103,7 +103,9 @@ main > h2 {
 .project_image_1 {
   width: 100%;
 }
-
+article {
+  font-family: "Roboto", sans-serif;
+}
 .main-writing {
   font-size: 1.1em;
   line-height: 15px;
