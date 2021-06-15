@@ -65,6 +65,7 @@ h1 {
 }
 main > h2 {
   text-align: center;
+  letter-spacing: 2px;
   margin-top: 30px;
   font-size: 3em;
   font-weight: 400;
@@ -80,8 +81,9 @@ main > h2 {
 
 .project_title > h2 {
   font-size: 2.2em;
+  letter-spacing: 2px;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .content_container {
@@ -95,6 +97,7 @@ main > h2 {
   width: 100%;
   height: fit-content;
   margin-bottom: 10px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.103);
 }
 
 .project_image_1 {
@@ -118,14 +121,15 @@ main > h2 {
 .github_link {
   background: none;
   border: 1px solid rgba(0, 0, 0, 0.493);
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 5px 10px;
   border-radius: 3px;
 }
 
 .border_bottom {
   width: 90%;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-bottom: solid 1px black;
 }
 
@@ -135,7 +139,39 @@ main > h2 {
   border-bottom: solid 1px black;
 }
 .project_2 {
-  margin-top: 20px;
+  margin-top: 15px;
+}
+h4 {
+  font-weight: 600;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.tech_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list_container {
+  margin-top: 7px;
+  display: flex;
+  width: 80%;
+  height: 100%;
+}
+.list_1 {
+  width: 50%;
+}
+.list_2 {
+  width: 50%;
+}
+.top_writing {
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 768px) {
