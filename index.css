@@ -207,6 +207,12 @@ p {
 }
 
 @media screen and (min-width: 1300px) {
+  .body_wrap {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+  }
   .nav {
     height: 15vh;
     flex-direction: row;
@@ -325,4 +331,8 @@ p {
   .social_svg {
     width: 40px;
   }
+}
+
+.large_nav:hover {
+  color: tomato;
 }

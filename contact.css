@@ -394,3 +394,7 @@ textarea {
     font-size: 0.875em;
   }
 }
+
+.large_nav:hover {
+  color: tomato;
+}
